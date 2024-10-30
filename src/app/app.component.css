@@ -1,0 +1,15 @@
+.barraVertical {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 15%;
+    background-color: black;
+    z-index: 1000; 
+    overflow-y: auto;
+}
+
+.demas {
+    margin-left: 15%;
+    padding: 20px;
+}

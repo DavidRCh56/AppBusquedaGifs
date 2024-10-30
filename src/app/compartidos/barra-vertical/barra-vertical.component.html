@@ -1,0 +1,18 @@
+<div class="bg-dark border-right p-3" id="barraVertical">
+    <h1 class="text-light">
+      Gifs
+    </h1>
+
+    <div class="list-group list-reset">
+      <ul>
+        <li>
+          <a *ngFor="let item of historial"
+          (click)="buscar(item)"
+          href="#">
+          <p>{{ item | titlecase }}</p>
+      </a>
+        </li>
+      </ul>
+      
+    </div>
+  </div>

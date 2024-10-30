@@ -1,33 +1,114 @@
-# ProyectoBien
+# ProyectoBien 🅰️
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
+## Descripción
+ProyectoBien es una aplicación web desarrollada con Angular 14.1.0. Este proyecto fue generado utilizando [Angular CLI](https://github.com/angular/angular-cli).
 
-## Dependencias
+## Requisitos Previos 📋
+- Node.js (^14.15.0 || >=16.10.0)
+- npm (^6.11.0 || ^7.5.6 || >=8.0.0)
+- Angular CLI (~14.1.0)
+
+## Instalación 🔧
+1. Clona el repositorio:
+
+```bash
+git clone https://github.com/DavidRCh56/AppBusquedaGifs.git
+```
+
+2. Navega al directorio del proyecto:
+
+```bash
+cd proyectoBien
+```
+
+3. Instala las dependencias:
 
 ```bash
 npm install
 ```
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Scripts Disponibles 🚀
 
-## Code scaffolding
+### Servidor de Desarrollo
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```bash
+npm install
+```
 
-## Build
+Navega a `http://localhost:4200/`. La aplicación se recargará automáticamente si cambias alguno de los archivos fuente.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Compilación
 
-## Running unit tests
+```bash
+ng build
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Los artefactos de compilación se almacenarán en el directorio `dist/`.
 
-## Running end-to-end tests
+### Pruebas Unitarias
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+ng test
+```
 
-## Further help
+Ejecuta las pruebas unitarias a través de [Karma](https://karma-runner.github.io).
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Pruebas End-to-End
+
+```bash
+ng e2e
+```
+
+Para utilizar este comando, primero debes agregar un paquete que implemente capacidades de prueba end-to-end.
+
+## Estructura del Proyecto 📁
+
+```
+AppBusquedaGifs/
+├── src/
+│ ├── app/
+│ │ ├── app.component.ts
+│ │ ├── app.component.html
+│ │ ├── app.component.css
+│ │ └── app.module.ts
+│ ├── assets/
+│ ├── environments/
+│ └── index.html
+├── angular.json
+├── package.json
+├── tsconfig.json
+└── README.md
+```
+
+## Dependencias Principales 📦
+- @angular/animations: ^14.1.0
+- @angular/common: ^14.1.0
+- @angular/core: ^14.1.0
+- @angular/forms: ^14.1.0
+- @angular/router: ^14.1.0
+- RxJS: ~7.5.0
+- Zone.js: ~0.11.4
+
+## Configuración de Producción ⚙️
+El proyecto incluye configuraciones optimizadas para producción con:
+- Presupuestos de tamaño de bundle
+- Reemplazo de archivos de entorno
+- Optimización y minificación de código
+
+## Generación de Código 🛠️
+Utiliza los siguientes comandos para generar componentes:
+
+```bash
+ng generate component nombre-componente
+ng generate directive|pipe|service|class|guard|interface|enum|module
+```
+
+## Ayuda Adicional 💡
+Para obtener más ayuda sobre Angular CLI usa `ng help` o consulta la [Documentación y Referencia de Comandos de Angular CLI](https://angular.io/cli).
+
+## Autor ✒️
+* **David** - [DavidRCh56](https://github.com/DavidRCh56)
+
+---
+⌨️ con ❤️ por DavidRCh56 😊
